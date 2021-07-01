@@ -217,7 +217,7 @@ def remove_stopwords():
                 stops.append(str(words)[2:-1])
 
     file1 = os.path.join(basedir, 'static/'+filename1)
-    with open(file1, 'rb'):
+    with open(file1, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file1.append(str(words)[2:-1])
@@ -231,7 +231,7 @@ def remove_stopwords():
     total1 = initial1 - after1
 
     file2 = os.path.join(basedir, 'static/' + filename2)
-    with open(file2, 'rb'):
+    with open(file2, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file2.append(str(words)[2:-1])
@@ -245,7 +245,7 @@ def remove_stopwords():
     total2 = initial2 - after2
 
     file3 = os.path.join(basedir, 'static/' + filename3)
-    with open(file3, 'rb'):
+    with open(file3, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file3.append(str(words)[2:-1])
@@ -259,7 +259,7 @@ def remove_stopwords():
     total3 = initial3 - after3
 
     file4 = os.path.join(basedir, 'static/' + filename4)
-    with open(file4, 'rb'):
+    with open(file4, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file4.append(str(words)[2:-1])
@@ -273,7 +273,7 @@ def remove_stopwords():
     total4 = initial4 - after4
 
     file5 = os.path.join(basedir, 'static/' + filename5)
-    with open(file5, 'rb'):
+    with open(file5, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file5.append(str(words)[2:-1])
@@ -287,7 +287,7 @@ def remove_stopwords():
     total5 = initial5 - after5
 
     file6 = os.path.join(basedir, 'static/' + filename6)
-    with open(file6, 'rb'):
+    with open(file6, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file6.append(str(words)[2:-1])
@@ -301,7 +301,7 @@ def remove_stopwords():
     total6 = initial6 - after6
 
     file7 = os.path.join(basedir, 'static/' + filename7)
-    with open(file7, 'rb'):
+    with open(file7, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file7.append(str(words)[2:-1])
@@ -315,7 +315,7 @@ def remove_stopwords():
     total7 = initial7 - after7
 
     file8 = os.path.join(basedir, 'static/' + filename8)
-    with open(file8, 'rb'):
+    with open(file8, 'rb') as fileinput:
         for line in fileinput:
             for words in line.split():
                 word_file8.append(str(words)[2:-1])
